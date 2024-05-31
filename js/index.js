@@ -106,7 +106,7 @@
 // }
 // switch (result) {
 //   case "xayrli tong":
-//     console.log("xayrli tong");
+//     console.log("xayrli tong"); 
 //     break;
 //   case "xayrli kun":
 //     console.log("xayrli kun");
@@ -130,10 +130,21 @@
 
 
 //  4 - misol 
-
+// let = prompt('Foydalanuvchi togri raqam kiritmaguncha raqam kiritishni soraydigan funksiya tuzing');
+// function togriRaqam() {
+//     while (true) {
+//     let raqam = prompt("Raqam kiriting");
+//     if (raqam > 0 && raqam < 10 && raqam !== "") {
+//         alert('Siz kiritgan raqam ${raqam}');
+//     } else {
+//         alert("Xatolik bo'ldi");
+//     }
+//    }
+//   }
+// togriRaqam();
 
 //   5 - misol 
-
+// let = prompt('0 dan 20 gacha bolgan juft sonlarni ekranga chiqaradigan funksiya tuzing');
 // let n = 2;
 // while (n <= 20) {
 //     console.log(n);
@@ -141,3 +152,50 @@
 // }
 
 
+//=================== 6 - MISOL ===============
+
+
+// let = prompt('Foydalanuvchi "stop" sozini kiritmaguncha xabar kiritishni soraydigan funksiya tuzing');
+// function xabarKiriting() {
+//     let input;
+//     do {
+//         input = prompt("Xabar kiriting");
+//         if(input !== "stop") {
+//             console.log('input');
+//         }
+//     } while(input !== "stop");
+// }
+
+
+// ============ 7 - MISOL =====================
+
+
+
+// let = prompt('Foydalanuvchi kiritgan n ta sonning ortacha qiymatini hisoblaydigan funksiya tuzing.');
+// function sonlarningOrtachasiniHisoblash() {
+// let summa = 0;
+//     let sonlarSoni = 0;
+//     let input = prompt("son kiriting");
+
+    
+//     let n = parseInt('input');
+//     while(sonlarSoni < n) {
+//         input = prompt(${sonlarSoni + 1}-sonni kiriting);
+//         let son = parseFloat('input');
+//         if (!isNaN(son)) {
+//             summa += son;
+//             sonlarSoni++;
+//         } else {
+//             alert("xato");
+//         }
+//     if (sonlarSoni > 0) {
+//         return summa / sonlarSoni;
+//     } else {
+//         alert("Hech qanday son kiritilmadi.");
+//         return null;
+//     }
+// }
+// let ortachaQiymat = sonlarningOrtachasiniHisobla();
+// if (ortachaQiymat !== null) {
+//     console.log("Kiritilgan sonlarning o'rtacha qiymati: " + ortachaQiymat);
+// }
